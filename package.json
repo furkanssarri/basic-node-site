@@ -1,0 +1,25 @@
+{
+  "name": "basic-node-site",
+  "version": "1.0.0",
+  "description": "This project is a simple Node.js application designed to practice basic server-side routing without using any frameworks. It demonstrates how to serve different HTML files based on the requested URL using Node's built-in `http`, `fs`, and `path` modules.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch --env-file=.env app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furkanssarri/basic-node-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/furkanssarri/basic-node-site/issues"
+  },
+  "homepage": "https://github.com/furkanssarri/basic-node-site#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
